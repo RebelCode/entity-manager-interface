@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^5.3 | ^7.0",
+        "php": "^5.3.9 | ^7.0",
         "dhii/data-container-interface": "^0.2-alpha1",
         "dhii/collections-interface": "^0.2-alpha4"
     },
