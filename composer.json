@@ -23,6 +23,9 @@
         "codeclimate/php-test-reporter": "<=0.3.2",
         "dhii/stringable-interface": "^0.1"
     },
+    "suggest": {
+        "dhii/cqrs-resource-model-interface": "Interfaces for building granular and flexible database abstraction"
+    },
     "autoload": {
         "psr-4": {
             "RebelCode\\Entity\\": "src"
