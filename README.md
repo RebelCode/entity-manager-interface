@@ -11,11 +11,11 @@ An interface package for standardizing entity managers.
 
 This package provides a set of interfaces for objects (referred to as entity managers) that can manage entities.
 
-The interfaces are designed to mimic collections in order to make them as compatible as possible with other collection implements. In fact,
-some of the interfaces and methods in this package are inherited from [`dhii/collections-interface`]. This is to allow entity managers to
-be able to work with both fixed and temporary forms of entities, such as database records, temporary computation results or configuration. 
+The interfaces are designed to mimic typical collection APIs in order to make them as compatible as possible with other collection implements.
+In fact, some of the interfaces and methods in this package are inherited from [`dhii/collections-interface`]. This is to allow entity managers
+to be able to work with both fixed and temporary forms of entities, such as database records, temporary computation results or configuration. 
 
-We use these internally to conceal our usage of CQRS resource model abstraction (see [`dhii/cqrs-resource-model-interface`]).  
+We use these interfaces internally to conceal our usage of CQRS resource model abstraction from consumers (See [`dhii/cqrs-resource-model-interface`]).  
 By implementing these interfaces, we are able to make consumers agnostic of this database abstraction and instead communicate with entity
 manager instances for read/write operations.
 
